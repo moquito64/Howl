@@ -1,7 +1,7 @@
 # Howl 🐺
 
 This is a self made attempt of a link tree type of app. This will use mongo or gcp firestore for a backend and an express api calls
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
