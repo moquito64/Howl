@@ -1,10 +1,11 @@
 import logo from '../../assets/images/gray-wolf-logo.svg';
+import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import FadeIn from 'react-fade-in';
-import React from 'react';
 import './home.css'
- 
-const home = () => {
+import React from 'react';
+
+const Home = () => {
     return (
     <div className="App">
       <Helmet>
@@ -18,13 +19,11 @@ const home = () => {
         <p className="landing-subtext">Create a Howl</p>
         <div className="landingpage-button">
         {/*<button class="signup-button"> Sign Up </button>*/}
-        <button className="login-button" type="button">
-         Login!
-       </button>
+        <NavLink activeClassName="active" className="login-button" to="/login">Login</NavLink>
         </div>
       </header>
     </div>
     );
 }
  
-export default home;
+export default Home;
